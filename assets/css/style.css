@@ -33,10 +33,7 @@ body {
     font-size: 20px;
 }
 
-/* changed div to section */
-.header section ul {
-    list-style-type: none;
-}
+/* got rid of .header section ul because it didn't do anything */
 
 /* changed div to section */
 .header section ul li {
@@ -91,21 +88,15 @@ figure {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* condensed all the seperate  */
+.benefit-lead,
+.benefit-cost,
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* condensed all the seperate  */
 .benefit-lead h3,
 .benefit-cost h3,
 .benefit-brand h3 {
@@ -113,6 +104,7 @@ figure {
     text-align: center;
 }
 
+/* condensed all the seperate  */
 .benefit-lead img,
 .benefit-cost img,
 .benefit-brand img {
@@ -121,6 +113,7 @@ figure {
     max-width: 150px;
 }
 
+/* condensed all the seperate  */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -132,23 +125,16 @@ figure {
     color: #ffffff;
 }
 
-/* condensed all the seperage  */
+/* condensed all the seperate  */
 .search-engine-optimization img, 
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* condensed all the seperate  */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
