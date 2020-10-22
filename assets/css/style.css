@@ -1,15 +1,18 @@
 * {
+    /* tells browser to account for any border/padding in the values specified for the width/ heigh properties */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* sets the background color for the body of the code */
     background-color: #d9dcd6;
 }
 
 /* changed from header class to header */
 header {
+    /* puts space around the content on all sides, sets font, background color of the header section, and color of text in the section */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -18,17 +21,20 @@ header {
 
 /* changed from header class to header */
 header h1 {
+    /* set the content to remain inline, this will have the h1 heading to be left aligned, followed by the section within the header */
     display: inline-block;
     font-size: 48px;
 }
 
 /* changed from header class to header */
 header h1 .seo {
+    /* this specifies the letters "seo" to be a different color then the rest of the h1 heading */
     color: #d9dcd6;
 }
 
 /* changed from header class to header, changed div to section */
 header section {
+    /* this allows for the section to float on the right side of the header, inline with the h1 heading. There in space added in the right margin and at the top padding. This section of the header has a seperate font & font-size. */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,17 +46,20 @@ header section {
 
 /* changed div to section */
 header section ul li {
+     /* this sets the content to remain inline, this will have the section follow after the h1 heading  */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* this sets the text color for the links */
     color: #ffffff;
     text-decoration: none;
 }
 
 /* got rid of the class and used new tag name instead */
 figure {
+    /* this figure displays an image right under the header that is specified to take up the while screen */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -61,6 +70,7 @@ figure {
 
 /* moved to be in order */
 .content {
+    /* this applies to the section containing all of the linked articles from the header, it will display a left-aligned in link block that is slightly indented and takes up 75% of the screen  */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -70,6 +80,7 @@ figure {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
+    /* all the linked articles, articles displayed on the lefthand side, have this specified height along with padding surrounding the whole section, some space in the bottom margin, and the same background-color and text color */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,15 +93,18 @@ figure {
 .search-engine-optimization img, 
 .online-reputation-management img,
 .social-media-marketing img {
+    /* all the articles displayed on the left will have a height of 200px */
     max-height: 200px;
 }
 
 .float-left {
+    /* images with this tag will float on the left side with a 25px margin on the right*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* images with this tag will float on the right side of the section with a 25px margin on the left*/
     float: right;
     margin-left: 25px;
 }
@@ -99,16 +113,19 @@ figure {
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
+     /* all the articles displayed on the left will have the same bottom amrgin and font sizes */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* moved to be in order */
 p {
+    /* all p elements will have this font-size unless untherwise stated */
     font-size: 16px;
 }
 
 .benefits {
+    /* this applies to the section displayed after the .content section, this section will be floating ont he right side of the same line, will take up 20% of the screen  */
     margin-right: 20px;
     /* changed padding to 35px to make this section slightly longer */
     padding: 35px;
@@ -124,6 +141,7 @@ p {
 .benefit-lead,
 .benefit-cost,
 .benefit-brand {
+    /* all the articles in this section have space in the bottom margin and display the same text color unless otherwise stated*/
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -132,6 +150,7 @@ p {
 .benefit-lead h3,
 .benefit-cost h3,
 .benefit-brand h3 {
+    /* the h3 headings of the articles in the right floating section will have the same space in its margin and centered text */
     margin-bottom: 10px;
     text-align: center;
 }
@@ -140,6 +159,7 @@ p {
 .benefit-lead img,
 .benefit-cost img,
 .benefit-brand img {
+/* the images in the articles of the right floating section will have a small margin on the top and bottom and be centered with a max width of 150 px */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -147,6 +167,7 @@ p {
 
 /* changed div with footer class to just footer */
 footer {
+    /* this puts space around content on all sides, sets font, and centers text */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -155,5 +176,6 @@ footer {
 
 /* changed div with footer class to just footer */
 footer h2 {
+    /* this sets the h2 headings font size to 20px */
     font-size: 20px;
 }
