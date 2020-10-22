@@ -9,7 +9,7 @@ I cleaned up the HTLM structure while replacing many tags with semantic tags, ad
 I cleaned the CSS page by reordering all the items to match the sequential order and the new tags on the HTML page. I also condensed classes, got rid of obsolete code, and altered CSS code to match the demo.##
 
 ## screenshot ##
-<img scr= "./assets/images/screencapture.png" />
+![Uploading screencapture.png…]()
 
 ## link to deployed application ##
 https://briannahebeler.github.io/Homework01-Code-Refactor/
