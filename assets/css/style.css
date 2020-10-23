@@ -27,7 +27,7 @@ header h1 {
 }
 
 /* changed from header class to header */
-header h1 .seo {
+header h1 #seo {
     /* this specifies the letters "seo" to be a different color then the rest of the h1 heading */
     color: #d9dcd6;
 }
@@ -69,17 +69,17 @@ figure {
 }
 
 /* moved to be in order */
-.content {
+#content {
     /* this applies to the section containing all of the linked articles from the header, it will display a left-aligned in link block that is slightly indented and takes up 75% of the screen  */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* moved to be in order, condensed all the seperate classes */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/* moved to be in order, condensed all the seperate ids */
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     /* all the linked articles, articles displayed on the lefthand side, have this specified height along with padding surrounding the whole section, some space in the bottom margin, and the same background-color and text color */
     margin-bottom: 20px;
     padding: 50px;
@@ -89,10 +89,10 @@ figure {
     color: #ffffff;
 }
 
-/* moved to be in order, condensed all the seperate classes */
-.search-engine-optimization img, 
-.online-reputation-management img,
-.social-media-marketing img {
+/* moved to be in order, condensed all the seperate ids */
+#search-engine-optimization img, 
+#online-reputation-management img,
+#social-media-marketing img {
     /* all the articles displayed on the left will have a height of 200px */
     max-height: 200px;
 }
@@ -103,16 +103,16 @@ figure {
     margin-right: 25px;
 }
 
-.float-right {
+#float-right {
     /* images with this tag will float on the right side of the section with a 25px margin on the left*/
     float: right;
     margin-left: 25px;
 }
 
-/* moved to be in order, condensed all the seperate classes */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+/* moved to be in order, condensed all the seperate ids */
+#search-engine-optimization h2,
+#online-reputation-management h2,
+#social-media-marketing h2 {
      /* all the articles displayed on the left will have the same bottom amrgin and font sizes */
     margin-bottom: 20px;
     font-size: 36px;
@@ -124,7 +124,7 @@ p {
     font-size: 16px;
 }
 
-.benefits {
+#benefits {
     /* this applies to the section displayed after the .content section, this section will be floating ont he right side of the same line, will take up 20% of the screen  */
     margin-right: 20px;
     /* changed padding to 35px to make this section slightly longer */
@@ -137,28 +137,28 @@ p {
     background-color: #2589bd;
 }
 
-/* condensed all the seperate classes */
-.benefit-lead,
-.benefit-cost,
-.benefit-brand {
+/* condensed all the seperate ids */
+#benefit-lead,
+#benefit-cost,
+#benefit-brand {
     /* all the articles in this section have space in the bottom margin and display the same text color unless otherwise stated*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* condensed all the seperate classes */
-.benefit-lead h3,
-.benefit-cost h3,
-.benefit-brand h3 {
+/* condensed all the seperate ids */
+#benefit-lead h3,
+#benefit-cost h3,
+#benefit-brand h3 {
     /* the h3 headings of the articles in the right floating section will have the same space in its margin and centered text */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* condensed all the seperate classes */
-.benefit-lead img,
-.benefit-cost img,
-.benefit-brand img {
+/* condensed all the seperate ids */
+#benefit-lead img,
+#benefit-cost img,
+#benefit-brand img {
 /* the images in the articles of the right floating section will have a small margin on the top and bottom and be centered with a max width of 150 px */
     display: block;
     margin: 10px auto;
