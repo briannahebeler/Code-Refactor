@@ -6,7 +6,7 @@
 
 * I cleaned up the HTLM structure while replacing many tags with semantic tags, adding alt attributes, and tweeked content such as the title, and broken links. 
 
-* I cleaned the CSS page by reordering all the items to match the sequential order and the new tags on the HTML page. I also condensed classes, got rid of obsolete code, and altered CSS code to match the demo.
+* I cleaned the CSS page by reordering all the items to match the sequential order and the new tags on the HTML page. I also condensed ids, got rid of obsolete code, and altered CSS code to match the demo.
 
 ## Screenshot: ##
 ![](assets/images/screencapture.png)
