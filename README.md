@@ -2,7 +2,7 @@
 
 ## Description: ##
 
-* In this project my goal was to refactor the clients codebase to follow accessibilty standards outlined. 
+* In this project my goal was to refactor the clients codebase to follow accessibility standards outlined. 
 
 * I cleaned up the HTLM structure while replacing many tags with semantic tags, adding alt attributes, and tweeked content such as the title, and broken links. 
 
