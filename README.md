@@ -1,4 +1,4 @@
-# Homework01-Code-Refactor
+# Code-Refactor
 
 ## Description: ##
 
@@ -12,4 +12,4 @@
 ![](assets/images/screencapture.png)
 
 ## Link to deployed application: ##
-* https://briannahebeler.github.io/Homework01-Code-Refactor/
+* https://briannahebeler.github.io/Code-Refactor/
